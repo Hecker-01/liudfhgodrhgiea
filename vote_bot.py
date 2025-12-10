@@ -59,7 +59,7 @@ class VotingBot:
         """Wait for user to solve hCaptcha and display instructions"""
         root = tk.Tk()
         root.title("hCaptcha Instructions")
-        root.geometry("500x250")
+        root.geometry("500x250+0+0")  # 500x250 size, positioned at x=0, y=0
         root.attributes('-topmost', True)
         
         # Instructions
